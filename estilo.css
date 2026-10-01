@@ -1,0 +1,75 @@
+body {
+    background-color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 15px auto;
+    padding: 25px 10px 10px 15px;
+    background-color: lightgray;
+    border: 1px solid;
+    width: 400px;
+    height: auto;
+}
+
+main#painel {
+    width: 750px;
+    height: auto;
+}
+
+header {
+    display: block;
+    text-align: right;
+}
+
+form {
+    display: block;
+    width: 90%;
+    margin: 5px auto;
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 65px;
+    height: 28;
+}
+
+input {
+    height: 28;
+    margin-bottom: 5px;
+}
+
+button {
+    height: 36px;
+    width: 75px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.erro {
+    display: block;
+    width: 100%;
+    height: 28px;
+    align-content: center;
+    background-color: rgb(123, 24, 24);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.warming {
+    display: block;
+    width: 100%;
+    height: 28px;
+    align-content: center;
+    background-color: rgb(137, 116, 20);
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
